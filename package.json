@@ -1,0 +1,16 @@
+{
+  "name": "webppl-fs",
+  "version": "0.0.1",
+  "description": "## Installation",
+  "main": "src/main.js",
+  "webppl": {
+    "wppl": [
+      "src/fs.wppl"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

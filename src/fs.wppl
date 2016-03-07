@@ -1,0 +1,4 @@
+var fs = {
+  read: webpplFs.read,
+  write: webpplFs.write
+};
