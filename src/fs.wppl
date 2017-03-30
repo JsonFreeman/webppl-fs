@@ -1,5 +1,6 @@
 var fs = {
   read: webpplFs.read,
   write: webpplFs.write,
+  mkdirp: webpplFs.mkdirp,
   node: webpplFs.node
 };

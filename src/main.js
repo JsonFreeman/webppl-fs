@@ -1,4 +1,5 @@
 var fs = require('fs');
+var mkdirp = require('mkdirp')
 
 module.exports = {
 
@@ -10,6 +11,10 @@ module.exports = {
 
   write: function(fn, data) {
     return fs.writeFileSync(fn, data);
-  }
+  },
+
+  mkdirp: function(dir, opts) {
+    return mkdirp.sync(dir, opts);
+  },
 
 };

@@ -28,6 +28,14 @@ string.
 Writes the string `data` to the file specified by `filename`. The file
 is overwritten if it already exists.
 
+### `fs.mkdirp(dir, opts)`
+
+Creates a new directory and any necessary subdirectories at dir with octal permission string opts.mode. If opts is a non-object, it will be treated as the opts.mode.
+
+If opts.mode isn't specified, it defaults to 0777 & (~process.umask()).
+
+Please see https://github.com/substack/node-mkdirp for more details.
+
 ## License
 
 MIT
